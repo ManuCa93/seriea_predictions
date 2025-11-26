@@ -1,0 +1,11 @@
+season,matchday,home_team,away_team,home_goals,away_goals,status,prediction,rounded,result
+2025,13,Como 1907,US Sassuolo Calcio,,,TIMED,-0.03345887478408707,-0.03,X
+2025,13,Genoa CFC,Hellas Verona FC,,,TIMED,-0.048952809806282166,-0.05,X
+2025,13,Parma Calcio 1913,Udinese Calcio,,,TIMED,0.053072921487972685,0.05,X
+2025,13,Juventus FC,Cagliari Calcio,,,TIMED,0.2723610424818811,0.27,1
+2025,13,AC Milan,SS Lazio,,,TIMED,-0.0057454849362672256,-0.01,X
+2025,13,US Lecce,Torino FC,,,TIMED,0.39532501940004594,0.4,1
+2025,13,AC Pisa 1909,FC Internazionale Milano,,,TIMED,-0.04188359683289081,-0.04,X
+2025,13,Atalanta BC,ACF Fiorentina,,,TIMED,-0.07048943765860366,-0.07,X
+2025,13,AS Roma,SSC Napoli,,,TIMED,-0.17700956461648346,-0.18,X
+2025,13,Bologna FC 1909,US Cremonese,,,TIMED,0.33646424709547373,0.34,1

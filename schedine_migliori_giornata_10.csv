@@ -1,0 +1,13 @@
+posizione,num_partite,roi_percentage,probabilita_totale,quota_totale,partite,tipi_scommessa,expected_return_per_euro
+1,2,146.74,67.63569145503152,3.65,US Lecce vs Torino FC | Bologna FC 1909 vs US Cremonese,GG | GG,2.47
+2,2,134.53,29.74434186928754,7.89,US Lecce vs Torino FC | AS Roma vs SSC Napoli,GG | 2,2.35
+3,2,133.51,61.44929076265188,3.8,US Lecce vs Torino FC | Atalanta BC vs ACF Fiorentina,GG | GG,2.34
+4,3,266.64,24.218140271759083,15.14,US Lecce vs Torino FC | AS Roma vs SSC Napoli | Bologna FC 1909 vs US Cremonese,GG | 2 | GG,3.67
+5,3,265.04,50.032626367391174,7.3,US Lecce vs Torino FC | Atalanta BC vs ACF Fiorentina | Bologna FC 1909 vs US Cremonese,GG | GG | GG,3.65
+6,3,253.64,53.85566952905177,6.57,Juventus FC vs Cagliari Calcio | US Lecce vs Torino FC | Bologna FC 1909 vs US Cremonese,GG | GG | GG,3.54
+7,4,442.44,17.915055460556715,30.28,US Lecce vs Torino FC | Atalanta BC vs ACF Fiorentina | AS Roma vs SSC Napoli | Bologna FC 1909 vs US Cremonese,GG | GG | 2 | GG,5.42
+8,4,425.5,19.283962816455382,27.25,Juventus FC vs Cagliari Calcio | US Lecce vs Torino FC | AS Roma vs SSC Napoli | Bologna FC 1909 vs US Cremonese,GG | GG | 2 | GG,5.25
+9,4,425.39,17.796952683690318,29.52,Parma Calcio 1913 vs Udinese Calcio | US Lecce vs Torino FC | AS Roma vs SSC Napoli | Bologna FC 1909 vs US Cremonese,GG | GG | 2 | GG,5.25
+10,5,649.73,29.27612895938777,25.61,Parma Calcio 1913 vs Udinese Calcio | Juventus FC vs Cagliari Calcio | US Lecce vs Torino FC | Atalanta BC vs ACF Fiorentina | Bologna FC 1909 vs US Cremonese,GG | GG | GG | GG | GG,7.5
+11,5,605.97,29.05733565244234,24.3,Como 1907 vs US Sassuolo Calcio | Juventus FC vs Cagliari Calcio | US Lecce vs Torino FC | Atalanta BC vs ACF Fiorentina | Bologna FC 1909 vs US Cremonese,GG | GG | GG | GG | GG,7.06
+12,5,605.82,26.81668869841136,26.32,Como 1907 vs US Sassuolo Calcio | Parma Calcio 1913 vs Udinese Calcio | US Lecce vs Torino FC | Atalanta BC vs ACF Fiorentina | Bologna FC 1909 vs US Cremonese,GG | GG | GG | GG | GG,7.06

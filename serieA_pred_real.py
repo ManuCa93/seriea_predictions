@@ -279,9 +279,9 @@ def build_features(df_matches, df_pred=None):
 # =======================
 def get_probs(pred):
     ph = np.clip((pred + 1) / 2, 0.2, 0.8)
-    pd = (1 - abs(pred)) * 0.28
-    pa = 1 - ph - pd
-    return ph, pd, pa
+    p_d = (1 - abs(pred)) * 0.28
+    pa = 1 - ph - p_d
+    return ph, p_d, pa
 
 
 def label(pred):
@@ -316,11 +316,11 @@ def calculate_best_bets(df_matches, odds_list, top_n_per_category=3):
             q = odds_list[i]
         
         row = df_matches.iloc[i]
-        ph, pd, pa = get_probs(row['prediction'])
+        ph, p_d, pa = get_probs(row['prediction'])
         
         options = [
             {'type': '1', 'prob': ph, 'quota': q['1'], 'ev': ph * q['1']},
-            {'type': 'X', 'prob': pd, 'quota': q['X'], 'ev': pd * q['X']},
+            {'type': 'X', 'prob': p_d, 'quota': q['X'], 'ev': p_d * q['X']},
             {'type': '2', 'prob': pa, 'quota': q['2'], 'ev': pa * q['2']},
             {'type': 'GG', 'prob': ph + pa, 'quota': q['GG'], 'ev': (ph + pa) * q['GG']},
             {'type': 'NG', 'prob': 1 - (ph + pa), 'quota': q['NG'], 'ev': (1 - (ph + pa)) * q['NG']},
@@ -616,11 +616,11 @@ try:
     print("=" * 100 + "\n", flush=True)
     
     for idx, row in df_next.iterrows():
-        ph, pd, pa = get_probs(row["prediction"])
+        ph, p_d, pa = get_probs(row["prediction"])
         print(f"{idx+1}. {row['home_team']:15} vs {row['away_team']:15}", flush=True)
         if row['status'] == 'FINISHED':
             print(f"   Risultato: {int(row['home_goals'])}-{int(row['away_goals'])}", flush=True)
-        print(f"   Pred: {row['rounded']:6.2f} -> {row['result']:3} | Casa {ph*100:5.1f}% Pareggio {pd*100:5.1f}% Ospiti {pa*100:5.1f}%\n", flush=True)
+        print(f"   Pred: {row['rounded']:6.2f} -> {row['result']:3} | Casa {ph*100:5.1f}% Pareggio {p_d*100:5.1f}% Ospiti {pa*100:5.1f}%\n", flush=True)
     
     print("=" * 100, flush=True)
     
