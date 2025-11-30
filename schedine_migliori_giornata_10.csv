@@ -1,13 +1,11 @@
-posizione,num_partite,roi_percentage,probabilita_totale,quota_totale,partite,tipi_scommessa,expected_return_per_euro,score
-1,2,106.47,55.03732817569807,3.75,Genoa CFC vs Hellas Verona FC | US Lecce vs Torino FC,GG | GG,2.06,0.7302239690541885
-2,2,116.51,55.02980384844987,3.93,Genoa CFC vs Hellas Verona FC | Parma Calcio 1913 vs Udinese Calcio,GG | GG,2.17,0.7301788230906993
-3,2,140.74,54.620324013482225,4.41,Parma Calcio 1913 vs Udinese Calcio | US Lecce vs Torino FC,GG | GG,2.41,0.7277219440808933
-4,3,228.06,40.67286729716159,8.07,Genoa CFC vs Hellas Verona FC | Parma Calcio 1913 vs Udinese Calcio | US Lecce vs Torino FC,GG | GG | GG,3.28,0.6440372037829696
-5,3,162.92,40.51147266721041,6.49,Genoa CFC vs Hellas Verona FC | US Lecce vs Torino FC | Atalanta BC vs ACF Fiorentina,GG | GG | GG,2.63,0.6430688360032625
-6,3,175.71,40.505934215622034,6.81,Genoa CFC vs Hellas Verona FC | Parma Calcio 1913 vs Udinese Calcio | Atalanta BC vs ACF Fiorentina,GG | GG | GG,2.76,0.6430356052937323
-7,4,317.75,29.93818570817894,13.95,Genoa CFC vs Hellas Verona FC | Parma Calcio 1913 vs Udinese Calcio | US Lecce vs Torino FC | Atalanta BC vs ACF Fiorentina,GG | GG | GG | GG,4.18,0.5796291142490737
-8,4,361.43,29.79641624991957,15.49,Genoa CFC vs Hellas Verona FC | Parma Calcio 1913 vs Udinese Calcio | US Lecce vs Torino FC | AS Roma vs SSC Napoli,GG | GG | GG | GG,4.61,0.5787784974995175
-9,4,356.11,29.7624902624138,15.32,Genoa CFC vs Hellas Verona FC | Parma Calcio 1913 vs Udinese Calcio | AC Milan vs SS Lazio | US Lecce vs Torino FC,GG | GG | GG | GG,4.56,0.5785749415744827
-10,5,487.59,21.932327431229464,26.79,Genoa CFC vs Hellas Verona FC | Parma Calcio 1913 vs Udinese Calcio | US Lecce vs Torino FC | Atalanta BC vs ACF Fiorentina | AS Roma vs SSC Napoli,GG | GG | GG | GG | GG,5.88,0.5315939645873768
-11,5,480.81,21.90735543929045,26.51,Genoa CFC vs Hellas Verona FC | Parma Calcio 1913 vs Udinese Calcio | AC Milan vs SS Lazio | US Lecce vs Torino FC | Atalanta BC vs ACF Fiorentina,GG | GG | GG | GG | GG,5.81,0.5314441326357427
-12,5,541.54,21.80361522126932,29.42,Genoa CFC vs Hellas Verona FC | Parma Calcio 1913 vs Udinese Calcio | AC Milan vs SS Lazio | US Lecce vs Torino FC | AS Roma vs SSC Napoli,GG | GG | GG | GG | GG,6.42,0.5308216913276159
+matches,types,num_matches,total_quota,total_probability,expected_return_per_euro,roi_percentage,score,peso_stake
+"['Como 1907 vs US Sassuolo Calcio', 'Atalanta BC vs ACF Fiorentina']","['NG', 'NG']",2,3.74,51.09000058041468,1.91,91.08,0.6885400034824881,0.47408733639566475
+"['Como 1907 vs US Sassuolo Calcio', 'AC Milan vs SS Lazio']","['NG', 'NG']",2,3.37,49.429531569540686,1.66,66.38,0.628577189417244,
+"['Como 1907 vs US Sassuolo Calcio', 'Bologna FC 1909 vs US Cremonese']","['NG', 'NG']",2,2.99,52.40757200019429,1.57,56.8,0.6284454320011659,
+"['Como 1907 vs US Sassuolo Calcio', 'Atalanta BC vs ACF Fiorentina', 'Bologna FC 1909 vs US Cremonese']","['NG', 'NG', 'NG']",3,5.98,35.88935072557074,2.15,114.76,0.6153361043534245,0.37863852132084846
+"['Como 1907 vs US Sassuolo Calcio', 'AC Milan vs SS Lazio', 'Atalanta BC vs ACF Fiorentina']","['NG', 'NG', 'NG']",3,6.73,33.84995196292132,2.28,127.88,0.6030997117775279,
+"['Como 1907 vs US Sassuolo Calcio', 'Genoa CFC vs Hellas Verona FC', 'Atalanta BC vs ACF Fiorentina']","['NG', 'NG', 'NG']",3,7.03,30.755043362121942,2.16,116.24,0.5845302601727317,
+"['Como 1907 vs US Sassuolo Calcio', 'AC Milan vs SS Lazio', 'Atalanta BC vs ACF Fiorentina', 'Bologna FC 1909 vs US Cremonese']","['NG', 'NG', 'NG', 'NG']",4,10.77,23.77868045095928,2.56,156.12,0.5426720827057556,0.23559439147856198
+"['Como 1907 vs US Sassuolo Calcio', 'Genoa CFC vs Hellas Verona FC', 'Atalanta BC vs ACF Fiorentina', 'Bologna FC 1909 vs US Cremonese']","['NG', 'NG', 'NG', 'NG']",4,11.25,21.604590433816973,2.43,143.05,0.5296275426029018,
+"['Como 1907 vs US Sassuolo Calcio', 'Genoa CFC vs Hellas Verona FC', 'AC Milan vs SS Lazio', 'Bologna FC 1909 vs US Cremonese']","['NG', 'NG', 'NG', 'NG']",4,10.12,20.902422641677035,2.12,111.64,0.5254145358500623,
+"['Como 1907 vs US Sassuolo Calcio', 'Genoa CFC vs Hellas Verona FC', 'AC Milan vs SS Lazio', 'Atalanta BC vs ACF Fiorentina', 'Bologna FC 1909 vs US Cremonese']","['NG', 'NG', 'NG', 'NG', 'NG']",5,20.25,14.314236446566857,2.9,189.86,0.48588541867940116,0.14165078405115417
