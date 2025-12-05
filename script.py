@@ -91,8 +91,9 @@ def get_next_sunday_log_filename():
 LOG_FILE = get_next_sunday_log_filename()
 
 def log_msg(msg, level="INFO"):
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    log_entry = f"[{timestamp}] [{level}] {msg}"
+    # timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    # log_entry = f"[{timestamp}] [{level}] {msg}"
+    log_entry = f"{msg}"
     print(log_entry, flush=True)
     try:
         with open(LOG_FILE, "a", encoding="utf-8") as f:
