@@ -1,9 +1,0 @@
-num_matches,matches,types,total_quota,total_probability,expected_return_per_euro,roi_percentage,score,peso_stake,tipo
-2,"['Parma Calcio 1913 vs Udinese Calcio', 'Atalanta BC vs ACF Fiorentina']","['GG', 'X']",8.06,26.649521458396723,2.15,114.86,1.230290583256543,1.5136149192497246,HARDCORE
-2,"['Genoa CFC vs Hellas Verona FC', 'Atalanta BC vs ACF Fiorentina']","['1X', '1X']",1.67,73.25391574571654,1.23,22.56,1.1003638957792194,1.210800703134421,STANDARD
-3,"['Genoa CFC vs Hellas Verona FC', 'Atalanta BC vs ACF Fiorentina', 'AS Roma vs SSC Napoli']","['1X', '1X', '1X']",2.23,59.53812532831604,1.32,32.49,1.0450391200613234,1.092106762458545,STANDARD
-3,"['Genoa CFC vs Hellas Verona FC', 'Parma Calcio 1913 vs Udinese Calcio', 'Atalanta BC vs ACF Fiorentina']","['GG', 'GG', 'X']",14.75,16.78229752604972,2.48,147.61,1.0289538191498282,1.0587459619430173,HARDCORE
-4,"['Como 1907 vs US Sassuolo Calcio', 'Genoa CFC vs Hellas Verona FC', 'Atalanta BC vs ACF Fiorentina', 'AS Roma vs SSC Napoli']","['1X', '1X', '1X', '1X']",2.54,52.44138823495054,1.33,33.03,0.9280669834022607,0.8613083256813721,STANDARD
-5,"['Como 1907 vs US Sassuolo Calcio', 'Genoa CFC vs Hellas Verona FC', 'Atalanta BC vs ACF Fiorentina', 'AS Roma vs SSC Napoli', 'Bologna FC 1909 vs US Cremonese']","['1X', '1X', '1X', '1X', '1X']",2.71,46.987240513534815,1.28,27.54,0.7643005276826945,0.5841552966160453,STANDARD
-4,"['Como 1907 vs US Sassuolo Calcio', 'Genoa CFC vs Hellas Verona FC', 'Parma Calcio 1913 vs Udinese Calcio', 'Atalanta BC vs ACF Fiorentina']","['1', 'GG', 'GG', 'X']",24.05,10.959262053364457,2.64,163.57,0.761308675337299,0.5795908991438329,HARDCORE
-5,"['Como 1907 vs US Sassuolo Calcio', 'Genoa CFC vs Hellas Verona FC', 'Juventus FC vs Cagliari Calcio', 'AC Milan vs SS Lazio', 'Atalanta BC vs ACF Fiorentina']","['1', 'GG', '1', 'NG', 'X']",26.58,8.12565635634198,2.16,115.96,0.37897289642836324,0.14362045622730293,HARDCORE
